@@ -6,6 +6,10 @@
     <string name="third_chapter_text_view">This is a TextView</string>
     <string name="third_chapter_button">button 按钮</string>
     <string name="third_chapter_button_2">替换图片</string>
+    <string name="third_chapter_button_3">打开/关闭进度条（圆形）</string>
+    <string name="third_chapter_button_4">条形进度条（条形）</string>
+    <string name="third_chapter_button_5">对话框</string>
+    <string name="third_chapter_button_6">带进度条对话框</string>
     <string name="third_chapter_edit_hint">type something here</string>
 
 
