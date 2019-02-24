@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!-- android:gravity, 指定对齐方式, 可选值:top、bottom、left、right、center, 短竖线分割选项, ex: top|left -->
+    <TextView
+            android:id="@+id/third_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/third_chapter_text_view"
+            android:textSize="24sp"
+            android:textColor="#00ff00"
+            />
+
+    <!-- android:textAllCaps="false", 设置按钮控件不对文字做全英文大写处理 -->
+    <Button
+            android:id="@+id/third_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/third_chapter_button"
+            android:textAllCaps="false"
+            />
+
+    <Button
+            android:id="@+id/third_btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/third_chapter_button_2"
+            android:textAllCaps="false"
+            />
+
+    <!-- android:hint="@string/third_chapter_edit_hint", 输入框提示语 -->
+    <EditText
+            android:id="@+id/third_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/third_chapter_edit_hint"
+            android:maxLines="2"
+            />
+
+    <ImageView
+            android:id="@+id/third_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_1"
+            />
+
+    <ProgressBar
+            android:id="@+id/third_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+</LinearLayout>
